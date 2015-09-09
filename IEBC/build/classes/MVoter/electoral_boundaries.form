@@ -1,0 +1,1410 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel10" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabel14" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel13" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel12" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel11" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="war_save" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                      <Component id="con_save" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                                      <Component id="ward_clear" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="countycombobox_ward" alignment="1" pref="138" max="32767" attributes="1"/>
+                                          <Component id="constituencycombobox_ward" alignment="1" pref="138" max="32767" attributes="1"/>
+                                          <Component id="ward_id" alignment="1" pref="138" max="32767" attributes="0"/>
+                                          <Component id="con_clear" min="-2" max="-2" attributes="0"/>
+                                          <Component id="countycombobox_constituency" alignment="1" pref="138" max="32767" attributes="1"/>
+                                          <Component id="countycombobox_county" alignment="0" pref="138" max="32767" attributes="1"/>
+                                          <Component id="cou_clear" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="constituencycombobox_con" alignment="0" pref="138" max="32767" attributes="1"/>
+                                          <Component id="constituency_id" alignment="0" pref="138" max="32767" attributes="0"/>
+                                          <Component id="county_id_county" alignment="0" pref="138" max="32767" attributes="0"/>
+                                          <Component id="ward_combo" alignment="0" pref="138" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="cou_save" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="jScrollPane1" min="-2" pref="220" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                  <Component id="jButton10" max="32767" attributes="1"/>
+                                                  <Component id="jButton9" max="32767" attributes="1"/>
+                                                  <Component id="county_search_button_" alignment="0" max="32767" attributes="1"/>
+                                                  <Component id="county_search" alignment="0" max="32767" attributes="1"/>
+                                              </Group>
+                                          </Group>
+                                          <Component id="jScrollPane3" min="-2" pref="363" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jButton14" min="-2" pref="82" max="-2" attributes="1"/>
+                                          <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                                              <Component id="jButton13" max="32767" attributes="1"/>
+                                              <Component id="ward_search_button_" max="32767" attributes="1"/>
+                                              <Component id="ward_search" alignment="0" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jScrollPane2" min="-2" pref="306" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="constituency_search" max="32767" attributes="1"/>
+                                          <Component id="jButton12" alignment="0" pref="82" max="32767" attributes="1"/>
+                                          <Component id="jButton11" alignment="0" pref="82" max="32767" attributes="1"/>
+                                          <Component id="constituency_search_button_" alignment="0" max="32767" attributes="1"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="view_const_tbl_button" min="-2" max="-2" attributes="1"/>
+                                  <Component id="view_county_tbl_button" min="-2" max="-2" attributes="1"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="view_ward_tbl_button" min="-2" max="-2" attributes="1"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="county_id_county" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="countycombobox_county" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cou_save" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cou_clear" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                      <Component id="view_county_tbl_button" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="1">
+                              <Component id="county_search" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="county_search_button_" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jButton9" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jButton10" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jScrollPane1" min="-2" pref="136" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                      <Component id="constituency_id" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="view_const_tbl_button" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="constituencycombobox_con" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="countycombobox_constituency" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="con_save" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="con_clear" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="ward_id" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                      <Component id="constituency_search" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="constituency_search_button_" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jButton11" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButton12" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="1">
+                      <Component id="jScrollPane2" min="0" pref="0" max="32767" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="view_ward_tbl_button" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                      <Component id="ward_combo" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="ward_search" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                                  <Component id="constituencycombobox_ward" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="countycombobox_ward" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                              <Component id="ward_search_button_" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jButton13" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace pref="30" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="war_save" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ward_clear" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jButton14" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="jScrollPane3" pref="146" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="BOUNDARIES"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="COUNTY"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="County ID"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="cou_save">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cou_saveActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="county_id_county">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="county_id_county.setEditable(false);&#xa;for(int i=0; i &lt; 1 ; i++){&#xa;county_id_county.setText(&quot;COU&quot;+(int)(Math.random()*47));&#xa;}"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="cou_clear">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Clear"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cou_clearActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="county_table">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="2" rowCount="4">
+                <Column editable="true" title="County ID" type="java.lang.Object"/>
+                <Column editable="true" title="Name" type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="CONSTITUENCY"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Constituency ID"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="County"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="constituency_id">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="constituency_id.setEditable(false);&#xa;for(int i=0; i &lt; 1 ; i++){&#xa;constituency_id.setText(&quot;CON&quot;+(int)(Math.random()*290));&#xa;}"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="constituency_search">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="constituencycombobox_con">
+      <Properties>
+        <Property name="editable" type="boolean" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="false" type="code"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="12" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="208">
+            <StringItem index="0" value="Dagoretti Constituency"/>
+            <StringItem index="1" value="Embakasi Constituency"/>
+            <StringItem index="2" value="Kamukunji Constituency"/>
+            <StringItem index="3" value="Kasarani Constituency"/>
+            <StringItem index="4" value="Langata Constituency"/>
+            <StringItem index="5" value="Makadara Constituency"/>
+            <StringItem index="6" value="Starehe Constituency"/>
+            <StringItem index="7" value="Westlands Constituency"/>
+            <StringItem index="8" value="Kinangop Constituency"/>
+            <StringItem index="9" value="Kipipiri Constituency"/>
+            <StringItem index="10" value="Ndaragwa Constituency"/>
+            <StringItem index="11" value="Ol Kalou Constituency"/>
+            <StringItem index="12" value="Kieni Constituency"/>
+            <StringItem index="13" value="Mathira Constituency"/>
+            <StringItem index="14" value="Mukurweini Constituency"/>
+            <StringItem index="15" value="Nyeri Town Constituency"/>
+            <StringItem index="16" value="Othaya Constituency"/>
+            <StringItem index="17" value="Tetu Constituency"/>
+            <StringItem index="18" value="Gichugu Constituency"/>
+            <StringItem index="19" value="Ndia Constituency"/>
+            <StringItem index="20" value="Mwea Constituency"/>
+            <StringItem index="21" value="Kandara Constituency"/>
+            <StringItem index="22" value="Kigumo Constituency"/>
+            <StringItem index="23" value="Maragua Constituency"/>
+            <StringItem index="24" value="Kangema Constituency"/>
+            <StringItem index="25" value="Kiharu Constituency"/>
+            <StringItem index="26" value="Mathioya Constituency"/>
+            <StringItem index="27" value="Gatanga Constituency"/>
+            <StringItem index="28" value="Gatundu South Constituency"/>
+            <StringItem index="29" value="Gatundu North Constituency"/>
+            <StringItem index="30" value="Juja Constituency"/>
+            <StringItem index="31" value="Githunguri Constituency"/>
+            <StringItem index="32" value="Kiambaa Constituency"/>
+            <StringItem index="33" value="Kikuyu Constituency"/>
+            <StringItem index="34" value="Limuru Constituency"/>
+            <StringItem index="35" value="Lari Constituency"/>
+            <StringItem index="36" value="Bahari Constituency"/>
+            <StringItem index="37" value="Ganze Constituency"/>
+            <StringItem index="38" value="Kaloleni Constituency"/>
+            <StringItem index="39" value="Matuga Constituency"/>
+            <StringItem index="40" value="Msambweni Constituency"/>
+            <StringItem index="41" value="Lamu East Constituency"/>
+            <StringItem index="42" value="Lamu West Constituency"/>
+            <StringItem index="43" value="Magarini Constituency"/>
+            <StringItem index="44" value="Malindi Constituency"/>
+            <StringItem index="45" value="Changamwe Constituency"/>
+            <StringItem index="46" value="Kisauni Constituency"/>
+            <StringItem index="47" value="Likoni Constituency"/>
+            <StringItem index="48" value="Mvita Constituency"/>
+            <StringItem index="49" value="Mwatate Constituency"/>
+            <StringItem index="50" value="Taveta Constituency"/>
+            <StringItem index="51" value="Voi Constituency"/>
+            <StringItem index="52" value="Wundanyi Constituency"/>
+            <StringItem index="53" value="Bura Constituency"/>
+            <StringItem index="54" value="Galole Constituency"/>
+            <StringItem index="55" value="Garsen Constituency"/>
+            <StringItem index="56" value="Manyatta Constituency"/>
+            <StringItem index="57" value="Runyenjes Constituency"/>
+            <StringItem index="58" value="Isiolo North Constituency"/>
+            <StringItem index="59" value="Isiolo South Constituency"/>
+            <StringItem index="60" value="Kitui Central Constituency"/>
+            <StringItem index="61" value="Kitui South Constituency"/>
+            <StringItem index="62" value="Kitui West Constituency"/>
+            <StringItem index="63" value="Mutito Constituency"/>
+            <StringItem index="64" value="Kangundo Constituency"/>
+            <StringItem index="65" value="Kathiani Constituency"/>
+            <StringItem index="66" value="Machakos Town Constituency"/>
+            <StringItem index="67" value="Masinga Constituency"/>
+            <StringItem index="68" value="Mwala Constituency"/>
+            <StringItem index="69" value="Yatta Constituency"/>
+            <StringItem index="70" value="Kaiti Constituency"/>
+            <StringItem index="71" value="Kibwezi Constituency"/>
+            <StringItem index="72" value="Kilome Constituency"/>
+            <StringItem index="73" value="Makueni Constituency"/>
+            <StringItem index="74" value="Mbooni Constituency"/>
+            <StringItem index="75" value="Laisamis Constituency"/>
+            <StringItem index="76" value="North Horr Constituency"/>
+            <StringItem index="77" value="Saku Constituency"/>
+            <StringItem index="78" value="Gachoka Constituency"/>
+            <StringItem index="79" value="Siakago Constituency"/>
+            <StringItem index="80" value="Central Imenti Constituency"/>
+            <StringItem index="81" value="North Imenti Constituency"/>
+            <StringItem index="82" value="South Imenti Constituency"/>
+            <StringItem index="83" value="Igembe Constituency"/>
+            <StringItem index="84" value="Ntonyiri Constituency"/>
+            <StringItem index="85" value="Tigania East Constituency"/>
+            <StringItem index="86" value="Tigania West Constituency"/>
+            <StringItem index="87" value="Nithi Constituency"/>
+            <StringItem index="88" value="Moyale Constituency"/>
+            <StringItem index="89" value="Mwingi North Constituency"/>
+            <StringItem index="90" value="Mwingi South Constituency"/>
+            <StringItem index="91" value="Tharaka Constituency"/>
+            <StringItem index="92" value="Dujis Constituency"/>
+            <StringItem index="93" value="Fafi Constituency"/>
+            <StringItem index="94" value="Lagdera Constituency"/>
+            <StringItem index="95" value="Ijara Constituency"/>
+            <StringItem index="96" value="Wajir East Constituency"/>
+            <StringItem index="97" value="Wajir North Constituency"/>
+            <StringItem index="98" value="Wajir South Constituency"/>
+            <StringItem index="99" value="Wajir West Constituency"/>
+            <StringItem index="100" value="Mandera Central Constituency"/>
+            <StringItem index="101" value="Mandera East Constituency"/>
+            <StringItem index="102" value="Mandera West Constituency"/>
+            <StringItem index="103" value="Bondo Constituency"/>
+            <StringItem index="104" value="Rarieda Constituency"/>
+            <StringItem index="105" value="Bobasi Constituency"/>
+            <StringItem index="106" value="Bomachoge Constituency"/>
+            <StringItem index="107" value="South Mugirango Constituency"/>
+            <StringItem index="108" value="Ndhiwa Constituency"/>
+            <StringItem index="109" value="Rangwe Constituency"/>
+            <StringItem index="110" value="Bonchari Constituency"/>
+            <StringItem index="111" value="Kitutu Chache Constituency"/>
+            <StringItem index="112" value="Nyaribari Chache Constituency"/>
+            <StringItem index="113" value="Nyaribari Masaba Constituency"/>
+            <StringItem index="114" value="Kisumu Rural Constituency"/>
+            <StringItem index="115" value="Kisumu Town East Constituency"/>
+            <StringItem index="116" value="Kisumu Town West Constituency"/>
+            <StringItem index="117" value="Kuria Constituency"/>
+            <StringItem index="118" value="Migori Constituency"/>
+            <StringItem index="119" value="Nyatike Constituency"/>
+            <StringItem index="120" value="Rongo Constituency"/>
+            <StringItem index="121" value="Uriri Constituency"/>
+            <StringItem index="122" value="Kitutu Masaba Constituency"/>
+            <StringItem index="123" value="North Mugirango Constituency"/>
+            <StringItem index="124" value="West Mugirango Constituency"/>
+            <StringItem index="125" value="Muhoroni Constituency"/>
+            <StringItem index="126" value="Nyakach Constituency"/>
+            <StringItem index="127" value="Nyando Constituency"/>
+            <StringItem index="128" value="Karachuonyo Constituency"/>
+            <StringItem index="129" value="Kasipul Kabondo Constituency"/>
+            <StringItem index="130" value="Alego Constituency"/>
+            <StringItem index="131" value="Gem Constituency"/>
+            <StringItem index="132" value="Ugenya Constituency"/>
+            <StringItem index="133" value="Gwassi Constituency"/>
+            <StringItem index="134" value="Mbita Constituency"/>
+            <StringItem index="135" value="Baringo Central Constituency"/>
+            <StringItem index="136" value="Baringo East Constituency"/>
+            <StringItem index="137" value="Baringo North Constituency"/>
+            <StringItem index="138" value="Bomet Constituency"/>
+            <StringItem index="139" value="Chepalungu Constituency"/>
+            <StringItem index="140" value="Sotik Constituency"/>
+            <StringItem index="141" value="Bureti Constituency"/>
+            <StringItem index="142" value="Konoin Constituency"/>
+            <StringItem index="143" value="Kajiado Central Constituency"/>
+            <StringItem index="144" value="Kajiado North Constituency"/>
+            <StringItem index="145" value="Kajiado South Constituency"/>
+            <StringItem index="146" value="Keiyo North Constituency"/>
+            <StringItem index="147" value="Keiyo South Constituency"/>
+            <StringItem index="148" value="Ainamoi Constituency"/>
+            <StringItem index="149" value="Belgut Constituency"/>
+            <StringItem index="150" value="Kipkelion Constituency"/>
+            <StringItem index="151" value="Eldama Ravine Constituency"/>
+            <StringItem index="152" value="Mogotio Constituency"/>
+            <StringItem index="153" value="Laikipia East Constituency"/>
+            <StringItem index="154" value="Laikipia West Constituency"/>
+            <StringItem index="155" value="Marakwet East Constituency"/>
+            <StringItem index="156" value="Marakwet West Constituency"/>
+            <StringItem index="157" value="Molo Constituency"/>
+            <StringItem index="158" value="Naivasha Constituency"/>
+            <StringItem index="159" value="Nakuru Town Constituency"/>
+            <StringItem index="160" value="Rongai Constituency"/>
+            <StringItem index="161" value="Subukia Constituency"/>
+            <StringItem index="162" value="Aldai Constituency"/>
+            <StringItem index="163" value="Emgwen Constituency"/>
+            <StringItem index="164" value="Mosop Constituency"/>
+            <StringItem index="165" value="Tinderet Constituency"/>
+            <StringItem index="166" value="Narok North Constituency"/>
+            <StringItem index="167" value="Narok South Constituency"/>
+            <StringItem index="168" value="Samburu East Constituency"/>
+            <StringItem index="169" value="Samburu West Constituency"/>
+            <StringItem index="170" value="Kilgoris Constituency"/>
+            <StringItem index="171" value="Cherangany Constituency"/>
+            <StringItem index="172" value="Kwanza Constituency"/>
+            <StringItem index="173" value="Saboti Constituency"/>
+            <StringItem index="174" value="Turkana Central Constituency"/>
+            <StringItem index="175" value="Turkana North Constituency"/>
+            <StringItem index="176" value="Turkana South Constituency"/>
+            <StringItem index="177" value="Eldoret East Constituency"/>
+            <StringItem index="178" value="Eldoret North Constituency"/>
+            <StringItem index="179" value="Eldoret South Constituency"/>
+            <StringItem index="180" value="Kacheliba Constituency"/>
+            <StringItem index="181" value="Kapenguria Constituency"/>
+            <StringItem index="182" value="Sigor Constituency"/>
+            <StringItem index="183" value="Bumula Constituency"/>
+            <StringItem index="184" value="Kanduyi Constituency"/>
+            <StringItem index="185" value="Kimilili Constituency"/>
+            <StringItem index="186" value="Sirisia Constituency"/>
+            <StringItem index="187" value="Webuye Constituency"/>
+            <StringItem index="188" value="Budalangi Constituency"/>
+            <StringItem index="189" value="Butula Constituency"/>
+            <StringItem index="190" value="Funyula Constituency"/>
+            <StringItem index="191" value="Nambale Constituency"/>
+            <StringItem index="192" value="Butere Constituency"/>
+            <StringItem index="193" value="Khwisero Constituency"/>
+            <StringItem index="194" value="Matungu Constituency"/>
+            <StringItem index="195" value="Mumias Constituency"/>
+            <StringItem index="196" value="Malava Constituency"/>
+            <StringItem index="197" value="Lurambi Constituency"/>
+            <StringItem index="198" value="Shinyalu Constituency"/>
+            <StringItem index="199" value="Ikolomani Constituency"/>
+            <StringItem index="200" value="Lugari Constituency"/>
+            <StringItem index="201" value="Mt Elgon Constituency"/>
+            <StringItem index="202" value="Amagoro Constituency"/>
+            <StringItem index="203" value="Emuhaya Constituency"/>
+            <StringItem index="204" value="Hamisi Constituency"/>
+            <StringItem index="205" value="Sabatia Constituency"/>
+            <StringItem index="206" value="Vihiga Constituency"/>
+            <StringItem index="207" value=" "/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="constituencycombobox_conActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="countycombobox_county">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="12" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="47">
+            <StringItem index="0" value="mombasa county"/>
+            <StringItem index="1" value="kwale county"/>
+            <StringItem index="2" value="kilifi county"/>
+            <StringItem index="3" value="tanariver county"/>
+            <StringItem index="4" value="lamu county"/>
+            <StringItem index="5" value="taitataveta county"/>
+            <StringItem index="6" value="garissa county"/>
+            <StringItem index="7" value="wajir county"/>
+            <StringItem index="8" value="mandera county"/>
+            <StringItem index="9" value="marsabit county"/>
+            <StringItem index="10" value="isiolo county"/>
+            <StringItem index="11" value="meru county"/>
+            <StringItem index="12" value="tharakanithi county"/>
+            <StringItem index="13" value="embu county"/>
+            <StringItem index="14" value="kitui county"/>
+            <StringItem index="15" value="machakos county"/>
+            <StringItem index="16" value="makueni county"/>
+            <StringItem index="17" value="nyandarua county"/>
+            <StringItem index="18" value="nyeri county"/>
+            <StringItem index="19" value="kirinyaga county"/>
+            <StringItem index="20" value="muranga county"/>
+            <StringItem index="21" value="kiambu county"/>
+            <StringItem index="22" value="turkana county"/>
+            <StringItem index="23" value="westpokot county"/>
+            <StringItem index="24" value="samburu county"/>
+            <StringItem index="25" value="transnzoia county"/>
+            <StringItem index="26" value="uasingishu county"/>
+            <StringItem index="27" value="elgeyomarakwet county"/>
+            <StringItem index="28" value="nandi county"/>
+            <StringItem index="29" value="baringo county"/>
+            <StringItem index="30" value="laikipia county"/>
+            <StringItem index="31" value="nakuru county"/>
+            <StringItem index="32" value="narok county"/>
+            <StringItem index="33" value="kajiado county"/>
+            <StringItem index="34" value="kericho county"/>
+            <StringItem index="35" value="bomet county"/>
+            <StringItem index="36" value="kakamega county"/>
+            <StringItem index="37" value="vihiga county"/>
+            <StringItem index="38" value="bungoma county"/>
+            <StringItem index="39" value="busia county"/>
+            <StringItem index="40" value="siaya county"/>
+            <StringItem index="41" value="kisumu county"/>
+            <StringItem index="42" value="homabay county"/>
+            <StringItem index="43" value="migori county"/>
+            <StringItem index="44" value="kisii county"/>
+            <StringItem index="45" value="nyamira county"/>
+            <StringItem index="46" value="nairobicity county"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="constituency_table">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="3" rowCount="4">
+                <Column editable="true" title="Constituency ID" type="java.lang.String"/>
+                <Column editable="true" title="Name" type="java.lang.String"/>
+                <Column editable="true" title="County ID" type="java.lang.String"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel10">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="WARD"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="countycombobox_constituency">
+      <Properties>
+        <Property name="editable" type="boolean" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="false" type="code"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="12" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="47">
+            <StringItem index="0" value="mombasa county"/>
+            <StringItem index="1" value="kwale county"/>
+            <StringItem index="2" value="kilifi county"/>
+            <StringItem index="3" value="tanariver county"/>
+            <StringItem index="4" value="lamu county"/>
+            <StringItem index="5" value="taitataveta county"/>
+            <StringItem index="6" value="garissa county"/>
+            <StringItem index="7" value="wajir county"/>
+            <StringItem index="8" value="mandera county"/>
+            <StringItem index="9" value="marsabit county"/>
+            <StringItem index="10" value="isiolo county"/>
+            <StringItem index="11" value="meru county"/>
+            <StringItem index="12" value="tharakanithi county"/>
+            <StringItem index="13" value="embu county"/>
+            <StringItem index="14" value="kitui county"/>
+            <StringItem index="15" value="machakos county"/>
+            <StringItem index="16" value="makueni county"/>
+            <StringItem index="17" value="nyandarua county"/>
+            <StringItem index="18" value="nyeri county"/>
+            <StringItem index="19" value="kirinyaga county"/>
+            <StringItem index="20" value="muranga county"/>
+            <StringItem index="21" value="kiambu county"/>
+            <StringItem index="22" value="turkana county"/>
+            <StringItem index="23" value="westpokot county"/>
+            <StringItem index="24" value="samburu county"/>
+            <StringItem index="25" value="transnzoia county"/>
+            <StringItem index="26" value="uasingishu county"/>
+            <StringItem index="27" value="elgeyomarakwet county"/>
+            <StringItem index="28" value="nandi county"/>
+            <StringItem index="29" value="baringo county"/>
+            <StringItem index="30" value="laikipia county"/>
+            <StringItem index="31" value="nakuru county"/>
+            <StringItem index="32" value="narok county"/>
+            <StringItem index="33" value="kajiado county"/>
+            <StringItem index="34" value="kericho county"/>
+            <StringItem index="35" value="bomet county"/>
+            <StringItem index="36" value="kakamega county"/>
+            <StringItem index="37" value="vihiga county"/>
+            <StringItem index="38" value="bungoma county"/>
+            <StringItem index="39" value="busia county"/>
+            <StringItem index="40" value="siaya county"/>
+            <StringItem index="41" value="kisumu county"/>
+            <StringItem index="42" value="homabay county"/>
+            <StringItem index="43" value="migori county"/>
+            <StringItem index="44" value="kisii county"/>
+            <StringItem index="45" value="nyamira county"/>
+            <StringItem index="46" value="nairobicity county"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JComboBox()"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ward ID"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel13">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Constituency"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel14">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="County"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ward_id">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_AddingCodePost" type="java.lang.String" value="ward_id.setEditable(false);&#xa;for(int i=0; i &lt; 1 ; i++){&#xa;ward_id.setText(&quot;CON&quot;+(int)(Math.random()*290));&#xa;}"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="constituency_search_button_">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Search "/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="constituency_search_button_ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="constituencycombobox_ward">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="12" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="208">
+            <StringItem index="0" value="Dagoretti Constituency"/>
+            <StringItem index="1" value="Embakasi Constituency"/>
+            <StringItem index="2" value="Kamukunji Constituency"/>
+            <StringItem index="3" value="Kasarani Constituency"/>
+            <StringItem index="4" value="Langata Constituency"/>
+            <StringItem index="5" value="Makadara Constituency"/>
+            <StringItem index="6" value="Starehe Constituency"/>
+            <StringItem index="7" value="Westlands Constituency"/>
+            <StringItem index="8" value="Kinangop Constituency"/>
+            <StringItem index="9" value="Kipipiri Constituency"/>
+            <StringItem index="10" value="Ndaragwa Constituency"/>
+            <StringItem index="11" value="Ol Kalou Constituency"/>
+            <StringItem index="12" value="Kieni Constituency"/>
+            <StringItem index="13" value="Mathira Constituency"/>
+            <StringItem index="14" value="Mukurweini Constituency"/>
+            <StringItem index="15" value="Nyeri Town Constituency"/>
+            <StringItem index="16" value="Othaya Constituency"/>
+            <StringItem index="17" value="Tetu Constituency"/>
+            <StringItem index="18" value="Gichugu Constituency"/>
+            <StringItem index="19" value="Ndia Constituency"/>
+            <StringItem index="20" value="Mwea Constituency"/>
+            <StringItem index="21" value="Kandara Constituency"/>
+            <StringItem index="22" value="Kigumo Constituency"/>
+            <StringItem index="23" value="Maragua Constituency"/>
+            <StringItem index="24" value="Kangema Constituency"/>
+            <StringItem index="25" value="Kiharu Constituency"/>
+            <StringItem index="26" value="Mathioya Constituency"/>
+            <StringItem index="27" value="Gatanga Constituency"/>
+            <StringItem index="28" value="Gatundu South Constituency"/>
+            <StringItem index="29" value="Gatundu North Constituency"/>
+            <StringItem index="30" value="Juja Constituency"/>
+            <StringItem index="31" value="Githunguri Constituency"/>
+            <StringItem index="32" value="Kiambaa Constituency"/>
+            <StringItem index="33" value="Kikuyu Constituency"/>
+            <StringItem index="34" value="Limuru Constituency"/>
+            <StringItem index="35" value="Lari Constituency"/>
+            <StringItem index="36" value="Bahari Constituency"/>
+            <StringItem index="37" value="Ganze Constituency"/>
+            <StringItem index="38" value="Kaloleni Constituency"/>
+            <StringItem index="39" value="Matuga Constituency"/>
+            <StringItem index="40" value="Msambweni Constituency"/>
+            <StringItem index="41" value="Lamu East Constituency"/>
+            <StringItem index="42" value="Lamu West Constituency"/>
+            <StringItem index="43" value="Magarini Constituency"/>
+            <StringItem index="44" value="Malindi Constituency"/>
+            <StringItem index="45" value="Changamwe Constituency"/>
+            <StringItem index="46" value="Kisauni Constituency"/>
+            <StringItem index="47" value="Likoni Constituency"/>
+            <StringItem index="48" value="Mvita Constituency"/>
+            <StringItem index="49" value="Mwatate Constituency"/>
+            <StringItem index="50" value="Taveta Constituency"/>
+            <StringItem index="51" value="Voi Constituency"/>
+            <StringItem index="52" value="Wundanyi Constituency"/>
+            <StringItem index="53" value="Bura Constituency"/>
+            <StringItem index="54" value="Galole Constituency"/>
+            <StringItem index="55" value="Garsen Constituency"/>
+            <StringItem index="56" value="Manyatta Constituency"/>
+            <StringItem index="57" value="Runyenjes Constituency"/>
+            <StringItem index="58" value="Isiolo North Constituency"/>
+            <StringItem index="59" value="Isiolo South Constituency"/>
+            <StringItem index="60" value="Kitui Central Constituency"/>
+            <StringItem index="61" value="Kitui South Constituency"/>
+            <StringItem index="62" value="Kitui West Constituency"/>
+            <StringItem index="63" value="Mutito Constituency"/>
+            <StringItem index="64" value="Kangundo Constituency"/>
+            <StringItem index="65" value="Kathiani Constituency"/>
+            <StringItem index="66" value="Machakos Town Constituency"/>
+            <StringItem index="67" value="Masinga Constituency"/>
+            <StringItem index="68" value="Mwala Constituency"/>
+            <StringItem index="69" value="Yatta Constituency"/>
+            <StringItem index="70" value="Kaiti Constituency"/>
+            <StringItem index="71" value="Kibwezi Constituency"/>
+            <StringItem index="72" value="Kilome Constituency"/>
+            <StringItem index="73" value="Makueni Constituency"/>
+            <StringItem index="74" value="Mbooni Constituency"/>
+            <StringItem index="75" value="Laisamis Constituency"/>
+            <StringItem index="76" value="North Horr Constituency"/>
+            <StringItem index="77" value="Saku Constituency"/>
+            <StringItem index="78" value="Gachoka Constituency"/>
+            <StringItem index="79" value="Siakago Constituency"/>
+            <StringItem index="80" value="Central Imenti Constituency"/>
+            <StringItem index="81" value="North Imenti Constituency"/>
+            <StringItem index="82" value="South Imenti Constituency"/>
+            <StringItem index="83" value="Igembe Constituency"/>
+            <StringItem index="84" value="Ntonyiri Constituency"/>
+            <StringItem index="85" value="Tigania East Constituency"/>
+            <StringItem index="86" value="Tigania West Constituency"/>
+            <StringItem index="87" value="Nithi Constituency"/>
+            <StringItem index="88" value="Moyale Constituency"/>
+            <StringItem index="89" value="Mwingi North Constituency"/>
+            <StringItem index="90" value="Mwingi South Constituency"/>
+            <StringItem index="91" value="Tharaka Constituency"/>
+            <StringItem index="92" value="Dujis Constituency"/>
+            <StringItem index="93" value="Fafi Constituency"/>
+            <StringItem index="94" value="Lagdera Constituency"/>
+            <StringItem index="95" value="Ijara Constituency"/>
+            <StringItem index="96" value="Wajir East Constituency"/>
+            <StringItem index="97" value="Wajir North Constituency"/>
+            <StringItem index="98" value="Wajir South Constituency"/>
+            <StringItem index="99" value="Wajir West Constituency"/>
+            <StringItem index="100" value="Mandera Central Constituency"/>
+            <StringItem index="101" value="Mandera East Constituency"/>
+            <StringItem index="102" value="Mandera West Constituency"/>
+            <StringItem index="103" value="Bondo Constituency"/>
+            <StringItem index="104" value="Rarieda Constituency"/>
+            <StringItem index="105" value="Bobasi Constituency"/>
+            <StringItem index="106" value="Bomachoge Constituency"/>
+            <StringItem index="107" value="South Mugirango Constituency"/>
+            <StringItem index="108" value="Ndhiwa Constituency"/>
+            <StringItem index="109" value="Rangwe Constituency"/>
+            <StringItem index="110" value="Bonchari Constituency"/>
+            <StringItem index="111" value="Kitutu Chache Constituency"/>
+            <StringItem index="112" value="Nyaribari Chache Constituency"/>
+            <StringItem index="113" value="Nyaribari Masaba Constituency"/>
+            <StringItem index="114" value="Kisumu Rural Constituency"/>
+            <StringItem index="115" value="Kisumu Town East Constituency"/>
+            <StringItem index="116" value="Kisumu Town West Constituency"/>
+            <StringItem index="117" value="Kuria Constituency"/>
+            <StringItem index="118" value="Migori Constituency"/>
+            <StringItem index="119" value="Nyatike Constituency"/>
+            <StringItem index="120" value="Rongo Constituency"/>
+            <StringItem index="121" value="Uriri Constituency"/>
+            <StringItem index="122" value="Kitutu Masaba Constituency"/>
+            <StringItem index="123" value="North Mugirango Constituency"/>
+            <StringItem index="124" value="West Mugirango Constituency"/>
+            <StringItem index="125" value="Muhoroni Constituency"/>
+            <StringItem index="126" value="Nyakach Constituency"/>
+            <StringItem index="127" value="Nyando Constituency"/>
+            <StringItem index="128" value="Karachuonyo Constituency"/>
+            <StringItem index="129" value="Kasipul Kabondo Constituency"/>
+            <StringItem index="130" value="Alego Constituency"/>
+            <StringItem index="131" value="Gem Constituency"/>
+            <StringItem index="132" value="Ugenya Constituency"/>
+            <StringItem index="133" value="Gwassi Constituency"/>
+            <StringItem index="134" value="Mbita Constituency"/>
+            <StringItem index="135" value="Baringo Central Constituency"/>
+            <StringItem index="136" value="Baringo East Constituency"/>
+            <StringItem index="137" value="Baringo North Constituency"/>
+            <StringItem index="138" value="Bomet Constituency"/>
+            <StringItem index="139" value="Chepalungu Constituency"/>
+            <StringItem index="140" value="Sotik Constituency"/>
+            <StringItem index="141" value="Bureti Constituency"/>
+            <StringItem index="142" value="Konoin Constituency"/>
+            <StringItem index="143" value="Kajiado Central Constituency"/>
+            <StringItem index="144" value="Kajiado North Constituency"/>
+            <StringItem index="145" value="Kajiado South Constituency"/>
+            <StringItem index="146" value="Keiyo North Constituency"/>
+            <StringItem index="147" value="Keiyo South Constituency"/>
+            <StringItem index="148" value="Ainamoi Constituency"/>
+            <StringItem index="149" value="Belgut Constituency"/>
+            <StringItem index="150" value="Kipkelion Constituency"/>
+            <StringItem index="151" value="Eldama Ravine Constituency"/>
+            <StringItem index="152" value="Mogotio Constituency"/>
+            <StringItem index="153" value="Laikipia East Constituency"/>
+            <StringItem index="154" value="Laikipia West Constituency"/>
+            <StringItem index="155" value="Marakwet East Constituency"/>
+            <StringItem index="156" value="Marakwet West Constituency"/>
+            <StringItem index="157" value="Molo Constituency"/>
+            <StringItem index="158" value="Naivasha Constituency"/>
+            <StringItem index="159" value="Nakuru Town Constituency"/>
+            <StringItem index="160" value="Rongai Constituency"/>
+            <StringItem index="161" value="Subukia Constituency"/>
+            <StringItem index="162" value="Aldai Constituency"/>
+            <StringItem index="163" value="Emgwen Constituency"/>
+            <StringItem index="164" value="Mosop Constituency"/>
+            <StringItem index="165" value="Tinderet Constituency"/>
+            <StringItem index="166" value="Narok North Constituency"/>
+            <StringItem index="167" value="Narok South Constituency"/>
+            <StringItem index="168" value="Samburu East Constituency"/>
+            <StringItem index="169" value="Samburu West Constituency"/>
+            <StringItem index="170" value="Kilgoris Constituency"/>
+            <StringItem index="171" value="Cherangany Constituency"/>
+            <StringItem index="172" value="Kwanza Constituency"/>
+            <StringItem index="173" value="Saboti Constituency"/>
+            <StringItem index="174" value="Turkana Central Constituency"/>
+            <StringItem index="175" value="Turkana North Constituency"/>
+            <StringItem index="176" value="Turkana South Constituency"/>
+            <StringItem index="177" value="Eldoret East Constituency"/>
+            <StringItem index="178" value="Eldoret North Constituency"/>
+            <StringItem index="179" value="Eldoret South Constituency"/>
+            <StringItem index="180" value="Kacheliba Constituency"/>
+            <StringItem index="181" value="Kapenguria Constituency"/>
+            <StringItem index="182" value="Sigor Constituency"/>
+            <StringItem index="183" value="Bumula Constituency"/>
+            <StringItem index="184" value="Kanduyi Constituency"/>
+            <StringItem index="185" value="Kimilili Constituency"/>
+            <StringItem index="186" value="Sirisia Constituency"/>
+            <StringItem index="187" value="Webuye Constituency"/>
+            <StringItem index="188" value="Budalangi Constituency"/>
+            <StringItem index="189" value="Butula Constituency"/>
+            <StringItem index="190" value="Funyula Constituency"/>
+            <StringItem index="191" value="Nambale Constituency"/>
+            <StringItem index="192" value="Butere Constituency"/>
+            <StringItem index="193" value="Khwisero Constituency"/>
+            <StringItem index="194" value="Matungu Constituency"/>
+            <StringItem index="195" value="Mumias Constituency"/>
+            <StringItem index="196" value="Malava Constituency"/>
+            <StringItem index="197" value="Lurambi Constituency"/>
+            <StringItem index="198" value="Shinyalu Constituency"/>
+            <StringItem index="199" value="Ikolomani Constituency"/>
+            <StringItem index="200" value="Lugari Constituency"/>
+            <StringItem index="201" value="Mt Elgon Constituency"/>
+            <StringItem index="202" value="Amagoro Constituency"/>
+            <StringItem index="203" value="Emuhaya Constituency"/>
+            <StringItem index="204" value="Hamisi Constituency"/>
+            <StringItem index="205" value="Sabatia Constituency"/>
+            <StringItem index="206" value="Vihiga Constituency"/>
+            <StringItem index="207" value=" "/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="constituencycombobox_wardActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="ward_table">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="4" rowCount="4">
+                <Column editable="true" title="Ward ID" type="java.lang.String"/>
+                <Column editable="true" title="Name" type="java.lang.String"/>
+                <Column editable="true" title="Constituency " type="java.lang.String"/>
+                <Column editable="true" title="County " type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JTextField" name="ward_search">
+    </Component>
+    <Component class="javax.swing.JButton" name="ward_search_button_">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Search"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ward_search_button_ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="con_save">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="con_saveActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="con_clear">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Clear"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="con_clearActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="ward_clear">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Clear"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ward_clearActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="war_save">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="war_saveActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Update"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton9ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Delete"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton10ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Update"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton11ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Delete"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton12ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton13">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Update"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton13ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton14">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Delete"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton14ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="countycombobox_ward">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="12" style="0"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="47">
+            <StringItem index="0" value="mombasa county"/>
+            <StringItem index="1" value="kwale county"/>
+            <StringItem index="2" value="kilifi county"/>
+            <StringItem index="3" value="tanariver county"/>
+            <StringItem index="4" value="lamu county"/>
+            <StringItem index="5" value="taitataveta county"/>
+            <StringItem index="6" value="garissa county"/>
+            <StringItem index="7" value="wajir county"/>
+            <StringItem index="8" value="mandera county"/>
+            <StringItem index="9" value="marsabit county"/>
+            <StringItem index="10" value="isiolo county"/>
+            <StringItem index="11" value="meru county"/>
+            <StringItem index="12" value="tharakanithi county"/>
+            <StringItem index="13" value="embu county"/>
+            <StringItem index="14" value="kitui county"/>
+            <StringItem index="15" value="machakos county"/>
+            <StringItem index="16" value="makueni county"/>
+            <StringItem index="17" value="nyandarua county"/>
+            <StringItem index="18" value="nyeri county"/>
+            <StringItem index="19" value="kirinyaga county"/>
+            <StringItem index="20" value="muranga county"/>
+            <StringItem index="21" value="kiambu county"/>
+            <StringItem index="22" value="turkana county"/>
+            <StringItem index="23" value="westpokot county"/>
+            <StringItem index="24" value="samburu county"/>
+            <StringItem index="25" value="transnzoia county"/>
+            <StringItem index="26" value="uasingishu county"/>
+            <StringItem index="27" value="elgeyomarakwet county"/>
+            <StringItem index="28" value="nandi county"/>
+            <StringItem index="29" value="baringo county"/>
+            <StringItem index="30" value="laikipia county"/>
+            <StringItem index="31" value="nakuru county"/>
+            <StringItem index="32" value="narok county"/>
+            <StringItem index="33" value="kajiado county"/>
+            <StringItem index="34" value="kericho county"/>
+            <StringItem index="35" value="bomet county"/>
+            <StringItem index="36" value="kakamega county"/>
+            <StringItem index="37" value="vihiga county"/>
+            <StringItem index="38" value="bungoma county"/>
+            <StringItem index="39" value="busia county"/>
+            <StringItem index="40" value="siaya county"/>
+            <StringItem index="41" value="kisumu county"/>
+            <StringItem index="42" value="homabay county"/>
+            <StringItem index="43" value="migori county"/>
+            <StringItem index="44" value="kisii county"/>
+            <StringItem index="45" value="nyamira county"/>
+            <StringItem index="46" value="nairobicity county"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="view_county_tbl_button">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Refresh"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="view_county_tbl_buttonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="county_search">
+    </Component>
+    <Component class="javax.swing.JButton" name="county_search_button_">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="search"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="county_search_button_ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="view_const_tbl_button">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Refresh"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="view_const_tbl_buttonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="view_ward_tbl_button">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Refresh"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="view_ward_tbl_buttonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="ward_combo">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="90">
+            <StringItem index="0" value="Harambee"/>
+            <StringItem index="1" value="Makongeni"/>
+            <StringItem index="2" value="Mbotela"/>
+            <StringItem index="3" value="Lande Mawe"/>
+            <StringItem index="4" value="Mabatini"/>
+            <StringItem index="5" value="Huruma"/>
+            <StringItem index="6" value="Nairobi West"/>
+            <StringItem index="7" value="Karen"/>
+            <StringItem index="8" value="Langata"/>
+            <StringItem index="9" value="Kawangware"/>
+            <StringItem index="10" value="katina"/>
+            <StringItem index="11" value="Woodley"/>
+            <StringItem index="12" value="Kilimani"/>
+            <StringItem index="13" value="Kileleshwa"/>
+            <StringItem index="14" value="Highridge"/>
+            <StringItem index="15" value="Parklands"/>
+            <StringItem index="16" value="Kangemi"/>
+            <StringItem index="17" value="Mountain View"/>
+            <StringItem index="18" value="Baba Dogo"/>
+            <StringItem index="19" value="Utalii"/>
+            <StringItem index="20" value="Korogocho"/>
+            <StringItem index="21" value="Kariobangi North"/>
+            <StringItem index="22" value="Mathare North"/>
+            <StringItem index="23" value="Kayole South"/>
+            <StringItem index="24" value="Umoja &#x201c;2&#x2033;"/>
+            <StringItem index="25" value="Embakasi"/>
+            <StringItem index="26" value="Dandora Area Four"/>
+            <StringItem index="27" value="Imara Daima"/>
+            <StringItem index="28" value="Kwa Njenga"/>
+            <StringItem index="29" value="Dandora Area Three"/>
+            <StringItem index="30" value="Kariobangi South"/>
+            <StringItem index="31" value="Airport"/>
+            <StringItem index="32" value="Changamwe"/>
+            <StringItem index="33" value="Tudor EstatePort"/>
+            <StringItem index="34" value="Reitz"/>
+            <StringItem index="35" value="Kipevu"/>
+            <StringItem index="36" value="Tudor Four"/>
+            <StringItem index="37" value="Miritini"/>
+            <StringItem index="38" value="Jomvu Kuu"/>
+            <StringItem index="39" value="Mjambere"/>
+            <StringItem index="40" value="Maweni"/>
+            <StringItem index="41" value="Frere TownMji"/>
+            <StringItem index="42" value="Wa Kale/Makadara"/>
+            <StringItem index="43" value="Bamburi Estate"/>
+            <StringItem index="44" value="Kongowea"/>
+            <StringItem index="45" value="Kizingo"/>
+            <StringItem index="46" value="Shanzu"/>
+            <StringItem index="47" value="Nyali / Mkongani"/>
+            <StringItem index="48" value="Mwakirunge"/>
+            <StringItem index="49" value="Junda"/>
+            <StringItem index="50" value="Bofu"/>
+            <StringItem index="51" value="Timbwani"/>
+            <StringItem index="52" value="Ganjoni"/>
+            <StringItem index="53" value="Likoni"/>
+            <StringItem index="54" value="Majengo"/>
+            <StringItem index="55" value="Shimanzi"/>
+            <StringItem index="56" value="Mwembe Tayari"/>
+            <StringItem index="57" value="Tononoka"/>
+            <StringItem index="58" value="BondeniKing"/>
+            <StringItem index="59" value="&#x2019;orani"/>
+            <StringItem index="60" value="Ukunda"/>
+            <StringItem index="61" value="Gombato/Bongwe"/>
+            <StringItem index="62" value="Msambweni"/>
+            <StringItem index="63" value="Kinondo"/>
+            <StringItem index="64" value="Kikoneni"/>
+            <StringItem index="65" value="Kasemeni / Sega"/>
+            <StringItem index="66" value="Mivumoni"/>
+            <StringItem index="67" value="Mwena"/>
+            <StringItem index="68" value="Tiwi"/>
+            <StringItem index="69" value="Kubo South"/>
+            <StringItem index="70" value="Waa"/>
+            <StringItem index="71" value="Kwale"/>
+            <StringItem index="72" value="Golini / Vyongwani"/>
+            <StringItem index="73" value="Mazumalume"/>
+            <StringItem index="74" value="Chengoni"/>
+            <StringItem index="75" value="Puma"/>
+            <StringItem index="76" value="Mtaa"/>
+            <StringItem index="77" value="Mwavumbo"/>
+            <StringItem index="78" value="Ndavaya"/>
+            <StringItem index="79" value="Kasemeni East"/>
+            <StringItem index="80" value="Kasemeni West"/>
+            <StringItem index="81" value="Mwarakaya"/>
+            <StringItem index="82" value="Shimo La Tewa"/>
+            <StringItem index="83" value="Mtepeni"/>
+            <StringItem index="84" value="Junju North"/>
+            <StringItem index="85" value="Barani"/>
+            <StringItem index="86" value="Watamu Town"/>
+            <StringItem index="87" value="Maweni"/>
+            <StringItem index="88" value="Malindi North"/>
+            <StringItem index="89" value="Shella"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Back"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
